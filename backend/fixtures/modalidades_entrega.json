@@ -1,0 +1,17 @@
+[
+  {
+    "model": "catalogo.modalidadeentrega",
+    "pk": 1,
+    "fields": { "nome": "Retirada no local" }
+  },
+  {
+    "model": "catalogo.modalidadeentrega",
+    "pk": 2,
+    "fields": { "nome": "Entrega local" }
+  },
+  {
+    "model": "catalogo.modalidadeentrega",
+    "pk": 3,
+    "fields": { "nome": "Transportadora" }
+  }
+]

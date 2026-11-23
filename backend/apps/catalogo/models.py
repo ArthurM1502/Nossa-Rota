@@ -47,3 +47,13 @@ class Categoria(models.Model):
 
     def __str__(self):
         return f'{self.nome} ({self.get_tipo_display()})'
+
+
+class ModalidadeEntrega(models.Model):
+        nome = models.CharField(max_length=50, unique=True)
+
+        class Meta:
+            ordering = ['nome']
+
+        def __str__(self):
+            return self.nome
