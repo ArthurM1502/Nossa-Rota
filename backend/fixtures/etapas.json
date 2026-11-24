@@ -1,0 +1,22 @@
+[
+  {
+    "model": "pedidos.etapa",
+    "pk": 1,
+    "fields": { "nome": "Recebido", "ordem": 1 }
+  },
+  {
+    "model": "pedidos.etapa",
+    "pk": 2,
+    "fields": { "nome": "Em produção", "ordem": 2 }
+  },
+  {
+    "model": "pedidos.etapa",
+    "pk": 3,
+    "fields": { "nome": "Em transferência", "ordem": 3 }
+  },
+  {
+    "model": "pedidos.etapa",
+    "pk": 4,
+    "fields": { "nome": "Concluído", "ordem": 4 }
+  }
+]
