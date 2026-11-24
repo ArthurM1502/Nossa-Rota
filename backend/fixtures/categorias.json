@@ -1,0 +1,72 @@
+[
+  {
+    "model": "catalogo.categoria",
+    "pk": 1,
+    "fields": { "nome": "Tecidos", "tipo": "material" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 2,
+    "fields": { "nome": "Aviamentos", "tipo": "material" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 3,
+    "fields": { "nome": "Linhas e fios", "tipo": "material" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 4,
+    "fields": { "nome": "Máquinas e equipamentos", "tipo": "material" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 5,
+    "fields": { "nome": "Corte", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 6,
+    "fields": { "nome": "Costura", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 7,
+    "fields": { "nome": "Bordado", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 8,
+    "fields": { "nome": "Estamparia", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 9,
+    "fields": { "nome": "Acabamento", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 10,
+    "fields": { "nome": "Manutenção de máquinas", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 11,
+    "fields": { "nome": "Transporte", "tipo": "servico" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 12,
+    "fields": { "nome": "Retalhos de tecido", "tipo": "sobra" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 13,
+    "fields": { "nome": "Sobras de aviamentos", "tipo": "sobra" }
+  },
+  {
+    "model": "catalogo.categoria",
+    "pk": 14,
+    "fields": { "nome": "Sobras de linhas", "tipo": "sobra" }
+  }
+]

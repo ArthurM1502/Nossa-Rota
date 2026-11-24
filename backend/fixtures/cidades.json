@@ -1,0 +1,17 @@
+[
+  {
+    "model": "catalogo.cidade",
+    "pk": 1,
+    "fields": { "nome": "Caruaru", "uf": "PE" }
+  },
+  {
+    "model": "catalogo.cidade",
+    "pk": 2,
+    "fields": { "nome": "Toritama", "uf": "PE" }
+  },
+  {
+    "model": "catalogo.cidade",
+    "pk": 3,
+    "fields": { "nome": "Santa Cruz do Capibaribe", "uf": "PE" }
+  }
+]

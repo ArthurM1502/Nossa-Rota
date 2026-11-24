@@ -1,0 +1,27 @@
+[
+  {
+    "model": "catalogo.unidade",
+    "pk": 1,
+    "fields": { "nome": "Metro", "sigla": "m" }
+  },
+  {
+    "model": "catalogo.unidade",
+    "pk": 2,
+    "fields": { "nome": "Quilograma", "sigla": "kg" }
+  },
+  {
+    "model": "catalogo.unidade",
+    "pk": 3,
+    "fields": { "nome": "Peça", "sigla": "pç" }
+  },
+  {
+    "model": "catalogo.unidade",
+    "pk": 4,
+    "fields": { "nome": "Rolo", "sigla": "rolo" }
+  },
+  {
+    "model": "catalogo.unidade",
+    "pk": 5,
+    "fields": { "nome": "Cone", "sigla": "cone" }
+  }
+]
