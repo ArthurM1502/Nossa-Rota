@@ -56,10 +56,10 @@ class Servico(models.Model):
     descricao = models.TextField()
     preco = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     ativo = models.BooleanField(default=True)
-    criados_em = models.DateTimeField(auto_now_add=True)
+    criado_em = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        ordering = ['-criados_em']
+        ordering = ['-criado_em']
 
     def __str__(self):
         return f'{self.categoria.nome} - {self.prestador.nome_exibicao}'
