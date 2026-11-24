@@ -25,7 +25,7 @@ class PerfilSerializer(serializers.ModelSerializer):
 
 
 class CadastroSerializer(serializers.ModelSerializer):
-    Perfil = PerfilSerializer()
+    perfil = PerfilSerializer()
     password = serializers.CharField(
         write_only=True,
         trim_whitespace=False,
